@@ -27,13 +27,14 @@
 			<tr>
 				<th>Date</th>
 				<th>Message</th>
+				<th><div class="glyphicon glyphicon-off pull-right btn" id="close" ng-click="close()"></div></th>
 			</tr>
 			<tr ng-hide="emails">
 				<td colspan="2">Loading...</td>
 			</tr>
 			<tr ng-show="emails" ng-repeat="email in emails">
 				<td>{{email.created_at}}</td>
-				<td>{{email.message}}</td>
+				<td colspan="2">{{email.message}}</td>
 			</tr>
 		</table>
 	</div>

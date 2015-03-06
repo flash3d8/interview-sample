@@ -8,4 +8,7 @@ angular.module('JPTest', []).controller('MainController', function($scope, $root
 			$rootScope.emails = data;
 		});
 	};
+	$rootScope.close = function () {
+		$rootScope.minimize = false;
+	};
 });

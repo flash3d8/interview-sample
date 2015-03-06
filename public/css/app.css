@@ -6249,5 +6249,8 @@ label,
   overflow-y: scroll;
   height: 495px;
 }
+#close {
+  padding: 3px;
+}
 
 /*# sourceMappingURL=app.css.map */
