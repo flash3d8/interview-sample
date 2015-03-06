@@ -1,7 +1,7 @@
-<?php namespace App\Http\Controllers;
+<?php namespace JPTest\Http\Controllers;
 
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
+use JPTest\Http\Requests;
+use JPTest\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 

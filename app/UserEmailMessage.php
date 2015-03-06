@@ -1,4 +1,4 @@
-<?php namespace App;
+<?php namespace JPTest;
 
 use Illuminate\Database\Eloquent\Model;
 

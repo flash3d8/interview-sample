@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace JPTest\Http\Controllers;
 
 class WelcomeController extends Controller {
 

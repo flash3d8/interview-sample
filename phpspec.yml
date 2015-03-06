@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: JPTest
+        psr4_prefix: JPTest
         src_path: app

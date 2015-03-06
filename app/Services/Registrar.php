@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace JPTest\Services;
 
-use App\User;
+use JPTest\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 
