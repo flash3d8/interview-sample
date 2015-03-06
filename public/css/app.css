@@ -6231,3 +6231,23 @@ label,
 .checkbox label {
   font-weight: 300;
 }
+.row {
+  text-align: center;
+}
+.row > div > div {
+  padding: 20px 0;
+}
+.row p {
+  margin: 12px 0;
+}
+.row img {
+  width: 100px;
+  height: 100px;
+}
+.minimize {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 495px;
+}
+
+/*# sourceMappingURL=app.css.map */

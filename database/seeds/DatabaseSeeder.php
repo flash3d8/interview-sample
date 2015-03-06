@@ -21,11 +21,11 @@ class DatabaseSeeder extends Seeder {
 			    'name' => "Jacob{$i} Wolowitz",
 			    'email' => "me{$i}@jacob-w.com",
 			]);
-			$email_num = mt_rand(5,10);
+			$email_num = round(mt_rand(5, 10));
 			for ($b = 0; $b < $email_num; $b++) {
 				UserEmailMessage::create([
 				    'user_id' => $user->id,
-				    'message' => "This is user message {$i}. How are you doing? How's the kids?"
+				    'message' => "This is user {$user->id} with message {$b}. How are you doing? How's the kids?"
 				]);
 			}
 		}

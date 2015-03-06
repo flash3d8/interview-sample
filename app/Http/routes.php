@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
-
-Route::get('home', 'HomeController@index');
+Route::get('/', 'IndexController@index');
+Route::get('json/users', 'JsonController@users');
+Route::get('json/emails/{id}', 'JsonController@emails');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
